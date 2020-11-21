@@ -14,7 +14,7 @@ myDict = {'obj1':myList}
 
 jsonObj = json.dumps(myList, myDict)
 
-FileName = "/home/vmsreddy/Training/PYTHON/STDLIB/json/Ex1_DumpNLoad_Json.Db"
+FileName = "./Ex1_DumpNLoad_Json.Db"
 FilePtr = open ( FileName,  "w") 
 print "Writing the File - " ,  FileName
 print "myDict = " ,  myDict
